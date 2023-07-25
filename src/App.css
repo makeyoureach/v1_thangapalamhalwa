@@ -79,6 +79,82 @@
   padding-left: 70px;
   margin-left: 20vh;
 }
+
+
+.tech-slideshow {
+  /* height: 200px;
+  width: 100%;
+  margin: 5%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate3d(0, 0, 0); */
+  height: 150px;
+  bottom: 0;
+  /* position: absolute; */
+  overflow:hidden;
+  overflow-y: hidden;
+  white-space:nowrap;
+  
+  /* added */
+  left: 0;
+  animation-name: slide;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* .mover-1 {
+  height: 200px;
+  width:300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(0, 0, 0);
+  animation: slide 15s linear infinite;
+} */
+
+
+@keyframes slide {
+  /* 0%{ transform:translateX(0px) } */
+  /* 25%{ transform:translateX(-200px) }
+  50%{ transform:translateX(-400px) }
+  75%{ transform:translateX(-600px) } */
+  /* 100%{ transform:translateX(-400px) } */
+  
+
+  /* 100% { 
+    transform: translateX(-66.6666%);  
+  } */
+  /* 0% { left: 0; }
+  50% { left: calc( 100% - 50px ); }
+  100% { left: 0; } */
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+
+}
+
+.parallax{
+  background-image: url('../public/home/or3.png');
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2% 0;
+  padding: 0 2%;
+}
+
+.parallax_text{
+  color: antiquewhite;
+  font-size: 32px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

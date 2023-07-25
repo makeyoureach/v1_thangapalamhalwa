@@ -5,6 +5,9 @@ import Aboutcard from './card/Aboutcard'
 import Explorecard from './card/Explorecard'
 import Reviewcard from './card/Reviewcard'
 import Footer from './Footer'
+import Parallaxcard from './card/Prallaxcard'
+import Faqcard from './card/faqcard'
+import Gallerycard from './card/Gallerycard'
 
 function Home() {
   return (
@@ -13,6 +16,9 @@ function Home() {
       <Frontpagecard/>
       <Aboutcard/>
       <Explorecard/>
+      <Parallaxcard/>
+      <Gallerycard/>
+      <Faqcard/>
       <Reviewcard/>
       <Footer/>
     </div>
