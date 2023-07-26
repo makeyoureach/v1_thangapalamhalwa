@@ -5,8 +5,8 @@ function Gallerycard(){
 
     return(
         <>
- <div class="tech-slideshow">
-  <div class="mover-1" style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+ <div className="tech-slideshow">
+  <div className="mover-1" style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
     <img src="/home/or1.png"></img>
     <img src="/home/or2.png"></img>
     <img src="/home/or3.png"></img>

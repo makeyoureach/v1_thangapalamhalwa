@@ -1,7 +1,7 @@
 const Parallaxcard = () => {
   return (
     <>
-      <div class="parallax">
+      <div className="parallax">
         
       <div  className="parallax_text">
         Scroll Up and Down this page to see the parallax scrolling effect. This

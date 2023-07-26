@@ -3,9 +3,9 @@ import Card from 'react-bootstrap/Card';
 import {BsCartPlusFill} from 'react-icons/bs'
 function Frontpagecard() {
   return (
-    <Card className="bg-dark" style={{color:'#43121d',  border:'0px', borderRadius:'0px'}}>
+    <Card className="bg-dark" style={{color:'#43121d',  border:'0px', borderRadius:'0px'}} id='front'>
       <Card.Img src="/home/front3.png" className='frontbackimg' alt="Card image" />
-      <Card.ImgOverlay style={{paddingTop: '220px', paddingLeft: '180px', width: '100vh'}}>
+      <Card.ImgOverlay style={{paddingTop: '200px', paddingLeft: '180px', width: '100vh'}}>
         <Card.Title><h2 style={{color:'#aa2c44'}}>From Tirunelveli</h2><h1>Good food choices are good investments.</h1>
         </Card.Title>
         <Card.Text >

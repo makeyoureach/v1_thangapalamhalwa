@@ -49,9 +49,18 @@
   color: #43121d;
 }
 .exploreimage{
-  /* width: 350px; */
-  height: 200px;
+  width: 70%;
+  margin: 4%;
+  height: 70%;
+  transition: transform .3s;
 }
+
+.exploreimage:hover{
+ 
+ transform: scale(1.1);
+}
+
+
 .content{
 	display:block !important;
 	margin: 50px;

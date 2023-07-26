@@ -11,11 +11,11 @@ function Explorecard() {
     "This is a longer card with supporting text below",
     "This is a longer card with supporting text below"]
     return (
-        <Container >
+        <Container id='explore'>
             <h1 className='heading' style={{ textAlign: 'center', padding: '40px' }}>Explore Our Foods</h1><br/>
             <Row xs={1} md={3} className="g-3" style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                 {Array.from({ length: 3 }).map((_, idx) => (
-                    <Col key={idx} style={{width: '350px', margin: '0 30px'}}>
+                    <Col key={idx} style={{width: '30%', margin: '2% 30px'}}>
                         <Card>
                             <div style={{display:'flex', justifyContent:'center',alignItems:'center'}}>
                             <Card.Img variant="top" className='exploreimage' src={"/home/or"+(idx+1)+".png"} />

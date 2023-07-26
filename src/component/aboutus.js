@@ -4,10 +4,9 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { BsArrowRightSquare } from 'react-icons/bs'
 
-function Aboutcard() {
+function AboutUs() {
     return (
-       
-        <div style={{ background: '#F3F3F3'}} id='aboutus' >
+        <div id="aboutus" style={{ background: '#F3F3F3',zIndex:'2'}} >
             <Container>
                 <Row xs={1} md={2} className="g-4" >
                     <Col style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
@@ -39,4 +38,4 @@ function Aboutcard() {
     );
 }
 
-export default Aboutcard;
+export default AboutUs;

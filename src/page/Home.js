@@ -12,7 +12,6 @@ import Gallerycard from './card/Gallerycard'
 function Home() {
   return (
     <div>
-      <Navigation/>
       <Frontpagecard/>
       <Aboutcard/>
       <Explorecard/>
