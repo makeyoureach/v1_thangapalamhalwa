@@ -1,0 +1,60 @@
+.subhead{
+    font-size: 30px;
+}
+.headname{
+    font-size: 20px;
+}
+.carouselcard{
+    height: 100vh;
+}
+.appbarbackground{
+    background-color: aliceblue;
+}
+.cardtext{
+    font-size: 20px;
+    margin: 0vh 30vh;
+}
+#deliveryicon{
+    font-size: 150px;
+}
+.vlbar {
+    border-left: 3px solid rgb(255, 255, 255);
+    height: 20vh;
+  }
+.exploreheading{
+    padding: 14.5vh;
+}
+.explorecards{
+    padding-bottom: 14.5vh;
+}
+
+.parallax{
+    background-image: url('/public/newhome/v3.jpg');
+    height: 89.5vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .parallax_text{
+    background-color: rgba(0, 0, 0, 0.519);
+    padding: 10vh;
+    color: white;
+    font-size: 18px;
+  }
+
+  .aboutheadinghalwa{
+    margin: 5vh 0vh;
+  }
+
+  .gallerycontainerwithsmall{
+    height: 89.5vh;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
