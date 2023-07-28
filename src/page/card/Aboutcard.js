@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { BsArrowRightSquare } from 'react-icons/bs'
+import {Fade} from 'react-awesome-reveal';
 
 function Aboutcard() {
     return (
@@ -11,9 +12,11 @@ function Aboutcard() {
             <Container>
                 <Row xs={1} md={2} className="g-4" >
                     <Col style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+                        <Fade>
                         <Card style={{background: '#F3F3F3', border:'0px', width: '70%' }}>
                             <Card.Img variant="top" src="/home/aboutus.jpg" />
                         </Card>
+                        </Fade>
                     </Col>
                     <Col>
                         <Card style={{background: '#F3F3F3', border:'0px' }}>

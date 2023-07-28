@@ -5,7 +5,6 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import {BiSolidPhoneCall} from 'react-icons/bi'
 function Navigation() {
 
- 
   return (
     <>
     <Navbar  collapseOnSelect expand="lg" className="" fixed="top" >
