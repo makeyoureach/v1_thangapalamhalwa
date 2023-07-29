@@ -18,7 +18,7 @@ export default function ExploreHalwa() {
             <Row className='explorecards'>
                 <Col>
                 <Slide>
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{ maxWidth: 345 }} className='explorecardmobile'>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -45,7 +45,7 @@ export default function ExploreHalwa() {
                 </Col>
                 <Col>
                 <Zoom>
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{ maxWidth: 345 }} className='explorecardmobile'>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -72,7 +72,7 @@ export default function ExploreHalwa() {
                 </Col>
                 <Col>
                 <Slide direction='right'>
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{ maxWidth: 345 }} className='explorecardmobile'>
                         <CardActionArea>
                             <CardMedia
                                 component="img"

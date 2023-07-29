@@ -94,7 +94,6 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -106,12 +105,12 @@ function ResponsiveAppBar() {
               flexGrow: 1,
               fontFamily: 'monospace',
               fontWeight: 700,
-              letterSpacing: '.3rem',
+              fontSize: '20px',
               color: '#ED203F',
               textDecoration: 'none',
             }}
           >
-            LOGO
+            <div><span className='subhead'>T</span>hangapalam <span className='subhead'>H</span>alwa</div>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
@@ -154,8 +153,9 @@ function ResponsiveAppBar() {
               ))}
             </Menu> */}
               <MenuItem key="5" onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">              
-                  <a href="tel:1800789123" style={{color:'#393939', textDecoration:'none'}}><BiSolidPhoneCall style={{fontSize:'19px'}}/>  +91 9488692030</a>
+                  <Typography textAlign="center"> 
+                  <a href="tel:9488692030" className='webcall' style={{color:'#393939', textDecoration:'none'}}><BiSolidPhoneCall style={{fontSize:'19px', marginBottom: '3px'}}/> +91 9488692030</a>
+                  <a href="tel:9488692030" className='mobilecall' style={{color:'#393939', textDecoration:'none'}}><BiSolidPhoneCall style={{fontSize:'19px', marginBottom: '3px'}}/> Call</a>
                   </Typography>
                 </MenuItem>
 

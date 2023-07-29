@@ -19,7 +19,7 @@ export default function CardBox() {
     return (
         <div style={{ background: '#ED203F', color: 'white' }}>
             <Container>
-                <Row>
+                <Row className='cardboxcontainer'>
                     <Col style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                         <JackInTheBox><DeliveryDiningIcon id='deliveryicon' /></JackInTheBox>
                         
@@ -28,8 +28,8 @@ export default function CardBox() {
                             <Zoom><div className='vlbar'></div></Zoom>
                     </Col>
                     <Col style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <Slide><Typography component="div" variant="h5">
-                            We Delivery All Over India
+                        <Slide><Typography component="div" variant="h5" className='deliverqoutes'>
+                        We deliver Halwa all over India.
                         </Typography></Slide>
                     </Col>
                 </Row>

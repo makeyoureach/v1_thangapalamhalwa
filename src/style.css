@@ -52,9 +52,98 @@
     margin: 5vh 0vh;
   }
 
-  .gallerycontainerwithsmall{
+  #gallerycontainerwithsmall{
     height: 89.5vh;
   }
   html {
     scroll-behavior: smooth;
   }
+
+  
+.webcall{
+  display: block;
+}
+.mobilecall{
+  display: none;
+}
+@media (max-width: 750px) { 
+
+  .webcall{
+    display: none;
+  }
+  .mobilecall{
+    display: block;
+  }
+  .carouselimagess{
+    background-size: cover;
+    width: 80vh;
+    height: 74vh;
+  }
+  .carouselcard{
+    height: 74vh;
+}
+.cardboxcontainer{
+  display: flex;
+  flex-direction: column;
+  height: 26vh;
+}
+#deliveryicon{
+  font-size: 90px;
+}
+.vlbar {
+  border-top: 3px solid rgb(255, 255, 255);
+  width: 30vh;
+  height: 0vh;
+}
+.deliverqoutes{
+  padding: 4vh 0vh;
+  font-size: 12px;
+  height: 10vh;
+}
+.cardtext{
+  font-size: 18px;
+  margin: 0vh;
+
+}
+.exploreheading{
+  padding: 10vh;
+}
+.explorecards{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0vh;
+}
+.explorecardmobile{
+  margin-bottom: 10vh;
+
+}
+
+.aboutheadinghalwa{
+  margin: 3vh 0vh;
+}
+.parallax_text{
+  background-color: rgba(0, 0, 0, 0.519);
+  padding: 5vh;
+  color: white;
+  font-size: 18px;
+}
+.parallax{
+  height: 89.5vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#gallerycontainerwithsmall{
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100%;
+}
+.gallery1{
+  padding: 3vh;
+}
+}
