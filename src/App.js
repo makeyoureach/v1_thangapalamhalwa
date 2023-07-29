@@ -4,7 +4,12 @@ import NewHome from './component/NewWeb/NewHome';
 
 function App() {
   return (
-    <div>
+    <div style={{
+      marginTop: "9vh",
+      height: "calc(99vh - 70px)",
+      overflow: "auto",
+      overflowX: "hidden",
+    }}  >
       <NewHome />
     </div>
   );

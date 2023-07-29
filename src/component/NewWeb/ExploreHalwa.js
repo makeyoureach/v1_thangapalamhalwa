@@ -37,7 +37,7 @@ export default function ExploreHalwa() {
                         </CardActionArea>
                         <CardActions>
                             <Button size="small" style={{ color: '#ED203F' }}>
-                                Order
+                            <a href="tel:9488692030" style={{ color: '#ED203F', textDecoration: 'none' }}>Order</a>
                             </Button>
                         </CardActions>
                     </Card>
@@ -64,7 +64,7 @@ export default function ExploreHalwa() {
                         </CardActionArea>
                         <CardActions>
                             <Button size="small" style={{ color: '#ED203F' }}>
-                                Order
+                            <a href="tel:9488692030" style={{ color: '#ED203F', textDecoration: 'none' }}>Order</a>
                             </Button>
                         </CardActions>
                     </Card>
@@ -91,13 +91,14 @@ export default function ExploreHalwa() {
                         </CardActionArea>
                         <CardActions>
                             <Button size="small" style={{ color: '#ED203F' }}>
-                                Order
+                                <a href="tel:9488692030" style={{ color: '#ED203F', textDecoration: 'none' }}>Order</a>
                             </Button>
                         </CardActions>
                     </Card>
                     </Slide>
                 </Col>
             </Row>
+            <div id="aboutus"></div>
         </Container>
     );
 }

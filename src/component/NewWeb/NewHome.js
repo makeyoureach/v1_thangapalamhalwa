@@ -10,7 +10,7 @@ import Footer from '../../page/Footer';
 
 function NewHome() {
   return (
-    <div>
+    <div id="home">
       <ResponsiveAppBar/>
       <DarkCarousel/>
       <CardBox/>

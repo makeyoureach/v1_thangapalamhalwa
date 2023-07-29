@@ -1,3 +1,7 @@
+
+#home{
+  overflow-y: hidden;
+}
 .subhead {
   font-size: 30px;
 }
@@ -7,7 +11,7 @@
 }
 
 .carouselcard {
-  height: 100vh;
+  height: 90vh;
 }
 
 .appbarbackground {
@@ -77,6 +81,11 @@ html {
   display: none;
 }
 
+.navanchor{
+  text-decoration: none;
+  color: #393939;
+}
+
 @media (max-width: 750px) {
 
   .webcall {
@@ -90,11 +99,11 @@ html {
   .carouselimagess {
     background-size: cover;
     width: 80vh;
-    height: 74vh;
+    height: 64vh;
   }
 
   .carouselcard {
-    height: 74vh;
+    height: 64vh;
   }
 
   .cardboxcontainer {

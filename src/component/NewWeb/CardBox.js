@@ -34,6 +34,7 @@ export default function CardBox() {
                     </Col>
                 </Row>
             </Container>
+            <div id='explorehalwa'></div>
         </div>
 
     );

@@ -14,7 +14,10 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import {BiSolidPhoneCall} from 'react-icons/bi';
 import { Fade } from 'react-awesome-reveal';
-const pages = ['Home', 'Explore Halwa', 'About Us' ];
+
+const pages = [ 'Home', 'Explore Halwa', 'About Us' ];
+const anchor = ['home', 'explorehalwa', 'aboutus' ];
+
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
@@ -87,9 +90,9 @@ function ResponsiveAppBar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
+              {pages.map((page, idx) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Fade><Typography textAlign="center" style={{color:'#393939'}}>{page}</Typography></Fade>
+                  <Fade><Typography textAlign="center" style={{color:'#393939'}}><a href={'#'+anchor[idx]} className='navanchor'>{page}</a></Typography></Fade>
                 </MenuItem>
               ))}
             </Menu>
@@ -113,13 +116,13 @@ function ResponsiveAppBar() {
             <div><span className='subhead'>T</span>hangapalam <span className='subhead'>H</span>alwa</div>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+            {pages.map((page, i) => (
               <Fade><Button
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: '#393939', display: 'block' }}
               >
-                {page}
+                <a href={'#'+anchor[i]} className='navanchor'>{page}</a>
               </Button></Fade>
             ))}
           </Box>
