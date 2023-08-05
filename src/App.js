@@ -6,7 +6,7 @@ function App() {
   return (
     <div style={{
       marginTop: "9vh",
-      height: "calc(99vh - 70px)",
+      height: "calc(99vh - 9vh)",
       overflow: "auto",
       overflowX: "hidden",
     }}  >
