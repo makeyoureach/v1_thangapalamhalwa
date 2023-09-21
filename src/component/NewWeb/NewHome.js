@@ -16,7 +16,7 @@ function NewHome() {
       <CardBox/>
       <ExploreHalwa/>
       <Parallaxcard/>
-      <Gallery/>
+      {/* <Gallery/> */}
       <Footer/>
     </div>
   )
